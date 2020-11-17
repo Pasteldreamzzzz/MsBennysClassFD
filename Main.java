@@ -9,7 +9,9 @@ class Main {
  for (int i = 0; i< students.length; i++){
 
 
-   Scanner scan = new Scanner
+   Scanner scan = new Scanner(System.in); 
+  System.out.println("Please enter name.");
+  String name = scan.next(); 
  }
 
   }
