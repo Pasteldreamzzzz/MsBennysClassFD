@@ -15,6 +15,8 @@ class Main {
 
   System.out.println("Where will you sit?"); 
   int seat = scan.nextInt();
+
+  System.out.println("Okay! " + name + " you will sit at seat " + seat ); 
  }
 
   }
