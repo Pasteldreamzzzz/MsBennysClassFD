@@ -11,7 +11,10 @@ class Main {
 
    Scanner scan = new Scanner(System.in); 
   System.out.println("Please enter name.");
-  String name = scan.next(); 
+  String name = scan.next();
+
+  System.out.println("Where will you sit?"); 
+  int seat = scan.nextInt();
  }
 
   }
